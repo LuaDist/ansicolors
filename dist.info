@@ -1,0 +1,26 @@
+type = "x86"
+arch = "Windows"
+author = "Rob Hoelz, Enrique García"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "Ansicolors is a simple Lua function for printing to the console in color."
+version = "1.0"
+maintainer = "Peter Drahos"
+files = {
+Runtime = {
+[[lib\lua\ansicolors.lua]],
+}
+,
+Data = {
+[[share\ansicolors\\specs\ansicolors_spec.lua]],
+[[share\ansicolors\COPYING]],
+[[share\ansicolors\README.textile]],
+}
+,
+}
+
+license = "MIT"
+name = "ansicolors"
+url = "https://github.com/kikito/ansicolors.lua"
