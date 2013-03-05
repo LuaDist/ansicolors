@@ -1,7 +1,7 @@
 --- This file is part of the LuaDist project
 
 name = "ansicolors"
-version = "1.0"
+version = "1.0.2"
 
 desc = "Ansicolors is a simple Lua function for printing to the console in color."
 author = "Rob Hoelz, Enrique García"
