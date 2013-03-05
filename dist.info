@@ -10,5 +10,5 @@ url = "https://github.com/kikito/ansicolors.lua"
 maintainer = "Peter Drahos"
 
 depends = {
-	"lua ~> 5.1",
+  "lua >= 5.1"
 }
